@@ -83,7 +83,7 @@ export default function Dropdown() {
             </select>
             {selectedOption && selectedStateOption && selectedCityOption && (
     <div>
-       <p>You selected {selectedCityOption}, {selectedOption}, {selectedCityOption}</p>
+       <p>You selected {selectedCityOption}, {selectedStateOption}, {selectedCityOption}</p>
         {/* <p><span style={{ fontWeight: 'bold' }}>You selected</span> <span style={{ fontWeight: 'bold',fontSize:11 }}>{selectedCityOption}</span>, <span style={{textShadow: '1px 1px 2px rgba(0, 0, 0, 0.5)'}}>{selectedOption}, {selectedCityOption}</span></p> */}
     </div>
 )}
